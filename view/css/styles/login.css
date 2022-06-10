@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  #senha,
+  #email,
+  #nome {
+    margin-top: 1.5rem;
+  }
+  
+  #btcadas {
+    margin-top: 1.2rem;
+  }
+  
+  #termos {
+    margin-top: 0.8rem;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2fa8ff;
+    padding: 30px;
+  }
+  
+  .foto {
+    width: 400px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+  
+    perspective: 2700px;
+  
+    background: #fff;
+    border-radius: 74px;
+  }
+  
+  .fundo1 {
+    margin-top: 85px;
+    margin-left: 40px;
+    width: 350px;
+    height: 310px;
+  }
+  
+  .col-5 {
+    padding: 50px 30px;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .container .input-box i {
+    position: absolute;
+  }
+  
+  .container .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    transition: all 0.3s ease;
+  }
+  
+  h1 {
+    color: #007cd7;
+    font-size: 40px !important;
+  }
+  
+  #divsenha {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #00bfa6;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #00bfa6;
+  }
+  
+  .btnsenha {
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    background-color: transparent;
+    border: none;
+    opacity: 0.5;
+  }
+  
+  .iconsenha {
+    width: 25px;
+    height: 25px;
+  }
+  

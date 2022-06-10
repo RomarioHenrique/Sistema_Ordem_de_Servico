@@ -1,0 +1,32 @@
+body {
+    background-image:url("../../images/listagens/fundo.svg");
+  }
+  
+  .titulo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #1272cb;
+  }
+  
+  thead {
+    background-color: #0084ce;
+    color: #fff;
+    height: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    border-bottom: 8px solid black;
+  }
+  
+  tbody {
+    height: 30px;
+  }
+  
+  .navbar{
+    display: flex;
+  }
+
+  #btns{
+    margin-top: 10px;
+  }

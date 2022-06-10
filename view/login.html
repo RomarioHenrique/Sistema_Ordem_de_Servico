@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cadastro Usuario</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/styles/login.css" type="text/css" />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-7">
+          <img class="fundo1" src="images/login/ordempng.png" alt="" />
+        </div>
+
+        <div class="col-5">
+          <section><h1 class="text-center">LOGIN</h1></section>
+
+          <form action="" method="get">
+            <div class="row">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input
+                  type="email"
+                  placeholder="Digite o email"
+                  class="form-control"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-box" id="divsenha">
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  placeholder="Digite a senha"
+                  class="form-control"
+                  id="senhaocl"
+                  minlength="8"
+                />
+                <button
+                  type="button"
+                  class="btnsenha"
+                  id="btocs"
+                  onclick="ExibirS()"
+                >
+                  <img class="iconsenha" src="images/login/ocultarsenha.png" />
+                </button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-check" id="termos">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckIndeterminate"
+                />
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                  Concordo com os termos de uso
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <button class="btn btn-dark" id="btcadas">Entrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="scriptcs.js"></script>
+  </body>
+</html>
